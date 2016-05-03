@@ -50,7 +50,14 @@ object BasicEvaluator {
 //
    def eval (term :Term) :M[Int] = term match {
      case Con(a) => Return (a)
-     //case Div(t,u) =>   ...
+     case Div(t,u) => eval(t) match {
+       case Raise(e) => Raise(e)
+       case Return(a) => eval(u) match {
+         case Raise(e) => Raise(e)
+         case Return(b) => if(b == 0) Raise("divided by zero")
+         else Return(a/b)
+       }
+     }
    }
 
    // Once you are done reflect how massive was the change from the
