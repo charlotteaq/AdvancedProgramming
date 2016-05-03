@@ -217,6 +217,9 @@ object BasicEvaluator {
 
    // TODO: Discuss in the group how the monadic evaluator with exceptions
    // differs from the monadic basic one
+
+    // The Monadic evaluator differs from the monadic basic one, by using flatmap. And since the defenition for flatmap
+    // is located in a trait, we need extend it to use the flatmap.
  }
 //
 // // Section 2.8 [Wadler] Variation two, revisited: State
