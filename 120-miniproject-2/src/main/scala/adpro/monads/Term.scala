@@ -2,6 +2,8 @@
    Andrzej Wąsowski */
 
 package adpro.monads
+import adpro.monads.ExceptionEvaluatorWithMonads.Return
+
 import scala.language.higherKinds
 
 // Work through this file top down
@@ -222,8 +224,8 @@ object BasicEvaluator {
     // is located in a trait, we need extend it to use the flatmap.
  }
 //
-// // Section 2.8 [Wadler] Variation two, revisited: State
-//
+ // Section 2.8 [Wadler] Variation two, revisited: State
+
 // object StateEvaluatorWithMonads {
 //
 //   type State = Int
@@ -239,7 +241,7 @@ object BasicEvaluator {
 //   }
 //
 //   // TODO: complete the implementation of unit, based on the paper
-//   object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = ... }
+//   //object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = State }
 //
 //   // TODO: complete the implementation of the evalutor:
 //   def eval (term :Term) :M[State] = term match {
@@ -251,9 +253,9 @@ object BasicEvaluator {
 //   // from the monadic basic one (or the one with exceptions)
 //
 // }
-//
-// // Section 2.9 [Wadler] Output evaluator
-//
+
+ // Section 2.9 [Wadler] Output evaluator
+
 // object OutputEvaluatorWithMonads {
 //
 //   type Output = String
@@ -262,20 +264,26 @@ object BasicEvaluator {
 //
 //     // flatMap is (*) in [Wadler]
 //     // TODO: implement flatMap
-//     def flatMap[B] (k :A => M[B]) = ...
+//     def flatMap[B] (k :A => M[B]) = M[B] {
+//       val (x, a) = k(a)
+//       (x + x, a)
+//     }
 //
 //     def map[B] (k :A => B) :M[B] = M[B] (this.o, k(this.a))
 //
 //   }
 //
 //   // TODO: implement unit
-//   object M { def unit[A] (a : A) :M[A] = ... }
+//   object M { def unit[A] (a : A) :M[A] = ("", a) }
 //
 //   def line (a :Term) (v :Int) :Output =
 //     "eval(" + a.toString + ") <= " + v.toString + "\n"
 //
 //   // TODO: implement eval
-//   def eval (term :Term) :M[Int] = ...
+//   def eval (term :Term) :M[Int] = term match {
+//     case Con(a) => ...
+//     case Div(t, u) =>   ...
+//   }
 //
 //   // Discuss in the group how the monadic evaluator with output differs from
 //   // the monadic basic one (or the one with state/counter).
