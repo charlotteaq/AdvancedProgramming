@@ -132,7 +132,7 @@ object BasicEvaluator {
  // Compare this implementation to the paper, and make sure that you understand
  // the Scala rendering.
 
-//   implicit object MonadicEval extends Monad {
+//   implicit object MonadicEval extends Monad[A,M] {
 //     def unit[A](a: A) = Some(a)
 //
 //     def eval(term: Term): Some[State] = term match {
@@ -201,13 +201,18 @@ object BasicEvaluator {
    case class Return[A] (a: A) extends M[A]
 
    // TODO: complete the evaluator
+  //TODO: IMPLEMENT FLATMAP...
    def eval (term :Term) :M[Int] = term match {
      case Con (a) => M.unit (a)
-//     case Div (t,u) => if (t == 0) {
-//       Raise / 0
-//     } else {
-//       Unit(a)/Unit(b)
-//     }
+     case Div (t,u) => eval(t) match {
+        case Raise(e) => Raise(e)
+        case Return(a) => eval(u) match {
+            case Raise(e) => Raise(e)
+            case Return(b) =>
+              if(b == 0) Raise("divided by zero")
+              else Return(a/b)
+        }
+     }
    }
 
    // TODO: Discuss in the group how the monadic evaluator with exceptions
