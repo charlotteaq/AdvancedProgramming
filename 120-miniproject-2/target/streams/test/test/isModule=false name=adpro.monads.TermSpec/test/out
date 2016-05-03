@@ -1,0 +1,6 @@
+[0m[[0minfo[0m] [0m[32mTermSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mBasic eval[0m[0m
+[0m[[0minfo[0m] [0m[32m- should answer 42 to a division [Wadler][0m[0m
+[0m[[0minfo[0m] [0m[32m- should return 42 from a constant[0m[0m
+[0m[[0minfo[0m] [0m[32m- should throw a scala exception on division by 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- should crash on unsafe terms[0m[0m
