@@ -2,8 +2,6 @@
    Andrzej Wąsowski */
 
 package adpro.monads
-import adpro.monads.OutputEvaluator.{Monad, MonadOps}
-
 import scala.language.higherKinds
 
 // Work through this file top down
@@ -66,19 +64,22 @@ object BasicEvaluator {
 //
  // Section 2.3 [Wadler] Variation two: State
 
-// object StateEvaluator {
-//
-//   type State = Int
-//   case class M[+A] (step: State => (A,State))
-//
-//   // TODO: complete the implementation of the evaluator as per the spec in the paper.
-//
-//   def eval (term :Term) :M[Int] = term match {
-//     case Con (a) => M[Int] (x => (a,x))
-//     case Div (t,u) => ...
-//   }
-//
-// }
+ object StateEvaluator {
+
+   type State = Int
+
+   case class M[+A](step: State => (A, State))
+
+   // TODO: complete the implementation of the evaluator as per the spec in the paper.
+
+   def eval(term: Term): M[Int] = term match {
+     case Con(a) => M[Int](x => (a, x))
+     //     case Div (t,u) => x =>
+     //         val (a, y) = eval(t)(x)
+     //         val (b, z) = eval(u)(y)
+     //         (a / b, z + 1)
+   }
+ }
 
 // // Section 2.4 [Wadler] Variation three: Output
 //
@@ -93,13 +94,14 @@ object BasicEvaluator {
 
 
   // TODO: complete the implementation of the eval function
-  //   def eval (term :Term) :M[Int] = term match {
-  ////     case Con(a) => line(Con(a)a, a)
-  ////      case Div(t,u) => eval (a) / eval (v)
-  ////      case Con(a) =>   ...
-  ////      case line(Div(a,v)) =>
-  ////   }
-  // }
+//     def eval (term :Term) :M[Int] = term match {
+//        case Con(a) => (line(Con(a)) a, a)
+////        case Div(t,u) =>
+////              val(x)(a) = eval(t)
+////              val(y)(b) = eval(u)
+////              (x + y) + (line(Div(t, u)(a / b), a / b))
+//     }
+   }
 
   // // Section 2.5 [Wadler] A monadic evaluator
   //
@@ -113,7 +115,6 @@ object BasicEvaluator {
   //
   trait Monad[+A, M[_]] {
     def flatMap[B](k: A => M[B]): M[B]
-
     def map[B](k: A => B): M[B]
   }
 
@@ -123,21 +124,25 @@ object BasicEvaluator {
   //
   trait MonadOps[M[_]] {
     def unit[A](a: A): M[A]
-
-    def let(term: Term): M[Int] = term match {
-      case Con(a) => unit(a)
-      //      case Div(t,u) => eval(t).flatMap() a: (eval(u) flatMap.(b: (unit (a  b))))
-      //// (eval(t) (flatMap(a)))
-    }
   }
-
-}
  // The above abstract traits will be used to constraint types of all our monadic
  // implementations, just to ensure better type safety and uniform interfaces.
 
  // Now we are starting to implement the monadic evaluator from the paper.
  // Compare this implementation to the paper, and make sure that you understand
  // the Scala rendering.
+
+//   implicit object MonadicEval extends Monad {
+//     def unit[A](a: A) = Some(a)
+//
+//     def eval(term: Term): Some[State] = term match {
+//          case Con(a) => unit(a)
+//          case Div(t,u) =>
+//            flatMap(eval(t), (a: Int) =>
+//              flatMap(eval(u), (b: Int) =>
+//                unit(a / b)))
+//        }
+//   }
   
 
 
