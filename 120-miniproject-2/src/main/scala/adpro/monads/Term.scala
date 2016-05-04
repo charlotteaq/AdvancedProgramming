@@ -66,44 +66,45 @@ object BasicEvaluator {
 //
  // Section 2.3 [Wadler] Variation two: State
 
- object StateEvaluator {
-
-   type State = Int
-
-   case class M[+A](step: State => (A, State))
-
-   // TODO: complete the implementation of the evaluator as per the spec in the paper.
-
-   def eval(term: Term): M[Int] = term match {
-     case Con(a) => M[Int](x => (a, x))
-     //     case Div (t,u) => x =>
-     //         val (a, y) = eval(t)(x)
-     //         val (b, z) = eval(u)(y)
-     //         (a / b, z + 1)
-   }
- }
-
-// // Section 2.4 [Wadler] Variation three: Output
+// object StateEvaluator {
 //
- object OutputEvaluator {
+//   type State = Int
+//
+//   case class M[+A](step: State => (A, State))
+//
+//   // TODO: complete the implementation of the evaluator as per the spec in the paper.
+//
+//   def eval(term: Term): M[Int] = term match {
+//     case Con(a) => M[Int](x => (a, x))
+//     case Div (t,u) => M[Int](x => {
+//       val (a, y) = (eval(t), x)
+//       val (b, z) = (eval(u), y)
+//       (a / b, z + 1)
+//     })
+//   }
+// }
 
-  type Output = String
+// Section 2.4 [Wadler] Variation three: Output
 
-  case class M[+A](o: Output, a: A)
-
-  def line(a: Term)(v: Int): Output =
-    "eval(" + a.toString + ") <= " + v.toString + "\n"
-
-
-  // TODO: complete the implementation of the eval function
+// object OutputEvaluator {
+//
+//  type Output = String
+//
+//  case class M[+A](o: Output, a: A)
+//
+//  def line(a: Term)(v: Int): Output =
+//    "eval(" + a.toString + ") <= " + v.toString + "\n"
+//
+//
+//  // TODO: complete the implementation of the eval function
 //     def eval (term :Term) :M[Int] = term match {
 //        case Con(a) => (line(Con(a)) a, a)
-////        case Div(t,u) =>
-////              val(x)(a) = eval(t)
-////              val(y)(b) = eval(u)
-////              (x + y) + (line(Div(t, u)(a / b), a / b))
+//        case Div(t,u) =>
+//              val(x, a) = eval(t)
+//              val(y, b) = eval(u)
+//              (x + y) + (line(Div(t, u)(a / b), a / b))
 //     }
-   }
+//   }
 
   // // Section 2.5 [Wadler] A monadic evaluator
   //

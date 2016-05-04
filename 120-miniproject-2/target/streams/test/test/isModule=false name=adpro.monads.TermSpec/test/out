@@ -4,3 +4,7 @@
 [0m[[0minfo[0m] [0m[32m- should return 42 from a constant[0m[0m
 [0m[[0minfo[0m] [0m[32m- should throw a scala exception on division by 0[0m[0m
 [0m[[0minfo[0m] [0m[32m- should crash on unsafe terms[0m[0m
+[0m[[0minfo[0m] [0m[32mException eval[0m[0m
+[0m[[0minfo[0m] [0m[32m- should answer Return(42) to our division [Wadler][0m[0m
+[0m[[0minfo[0m] [0m[32m- should answer Return(42) to a constant[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return an exception value for a division by zero[0m[0m
