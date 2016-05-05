@@ -86,26 +86,26 @@ object BasicEvaluator {
 
 // Section 2.4 [Wadler] Variation three: Output
 
-// object OutputEvaluator {
-//
-//  type Output = String
-//
-//  case class M[+A](o: Output, a: A)
-//
-//  def line(a: Term)(v: Int): Output =
-//    "eval(" + a.toString + ") <= " + v.toString + "\n"
-//
-//
-//  // TODO: complete the implementation of the eval function
-//     def eval (term :Term) :M[Int] = term match {
-//        case Con(a) => M[Int](line(term)(a), a)
-//        case Div(t, u) => M[Int]({
-//          val (x, a) = eval(t)
-//          val (y, b) = eval(u)
-//          (x + y + line(term)(a / b), a / b)
-//        })
-//     }
-//   }
+ object OutputEvaluator {
+
+  type Output = String
+
+  case class M[+A](o: Output, a: A)
+
+  def line(a: Term)(v: Int): Output =
+    "eval(" + a.toString + ") <= " + v.toString + "\n"
+
+
+  // TODO: complete the implementation of the eval function
+     def eval (term :Term) :M[Int] = term match {
+        case Con(a) => M[Int](line(term)(a), a)
+        case Div(t, u) => {
+          val x = eval(t)
+          val y = eval(u)
+          M[Int](x.o + y.o + line(term)(x.a/y.a), x.a/y.a)
+        }
+     }
+   }
 
   // // Section 2.5 [Wadler] A monadic evaluator
   //
