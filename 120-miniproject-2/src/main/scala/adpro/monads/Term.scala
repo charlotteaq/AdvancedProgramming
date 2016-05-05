@@ -107,50 +107,55 @@ object BasicEvaluator {
      }
    }
 
-  // // Section 2.5 [Wadler] A monadic evaluator
-  //
-  // // The following are two generic monadic interfaces (one for classes, one for
-  // // meta-classes/objects) that we will use to type check our monadic solutions.
-  // //
-  // // We shall provide flatMap and map for our monads to be able to use for
-  // // comprehensions in Scala.
-  // //
-  // // IMPORTANT: flatMap is called "(*)" in the paper.
-  //
+// Section 2.5 [Wadler] A monadic evaluator
+
+// The following are two generic monadic interfaces (one for classes, one for
+// meta-classes/objects) that we will use to type check our monadic solutions.
+//
+// We shall provide flatMap and map for our monads to be able to use for
+// comprehensions in Scala.
+//
+// IMPORTANT: flatMap is called "(*)" in the paper.
+
   trait Monad[+A, M[_]] {
     def flatMap[B](k: A => M[B]): M[B]
     def map[B](k: A => B): M[B]
   }
 
-  //
-  // // we will provide unit, as the paper does. This will be placed in a companion
-  // // object.
-  //
+// we will provide unit, as the paper does. This will be placed in a companion
+// object.
   trait MonadOps[M[_]] {
     def unit[A](a: A): M[A]
   }
- // The above abstract traits will be used to constraint types of all our monadic
- // implementations, just to ensure better type safety and uniform interfaces.
+// The above abstract traits will be used to constraint types of all our monadic
+// implementations, just to ensure better type safety and uniform interfaces.
 
- // Now we are starting to implement the monadic evaluator from the paper.
- // Compare this implementation to the paper, and make sure that you understand
- // the Scala rendering.
+// Now we are starting to implement the monadic evaluator from the paper.
+// Compare this implementation to the paper, and make sure that you understand
+// the Scala rendering.
 
-//   implicit object MonadicEval extends Monad[A,M] {
-//     def unit[A](a: A) = Some(a)
-//
-//     def eval(term: Term): Some[State] = term match {
-//          case Con(a) => unit(a)
-//          case Div(t,u) =>
-//            flatMap(eval(t), (a: Int) =>
-//              flatMap(eval(u), (b: Int) =>
-//                unit(a / b)))
-//        }
-//   }
-  
+object MonadicEvaluator {
 
+  case class M[A](a: A) extends Monad[A, M] {
+    def flatMap[B](k: A => M[B]): M[B] = k(this.a)
 
-//
+    def map[B](k: A => B): M[B] = M.unit(k(this.a))
+  }
+
+  object M extends MonadOps[M] {
+    def unit[A](a: A): M[A] = M[A] (a)
+  }
+
+  // Now we are starting to implement the monadic evaluator from the paper.
+  // Compare this implementation to the paper, and make sure that you understand
+  // the Scala rendering.
+
+  def eval(term: Term): M[Int] = term match {
+    case Con(a) => M.unit(a)
+    case Div(t, u) => eval(t).flatMap(a => eval(u).map(b => a / b))
+  }
+}
+
 // // Section 2.6 [Wadler] Variation zero, revisited: The basic evaluator
 //
  object BasicEvaluatorWithMonads {
@@ -205,28 +210,21 @@ object BasicEvaluator {
    case class Return[A] (a: A) extends M[A]
 
    // TODO: complete the evaluator
-  //TODO: IMPLEMENT FLATMAP...
    def eval (term :Term) :M[Int] = term match {
      case Con (a) => M.unit (a)
-     case Div (t,u) => eval(t) match {
-        case Raise(e) => Raise(e)
-        case Return(a) => eval(u) match {
-            case Raise(e) => Raise(e)
-            case Return(b) =>
-              if(b == 0) Raise("divided by zero")
-              else Return(a/b)
-        }
-     }
+     case Div (t,u) => eval(u).flatMap(b => if (b == 0) Raise("/ by zero")
+     else eval(t).map(a => a / b))
    }
+}
 
    // TODO: Discuss in the group how the monadic evaluator with exceptions
    // differs from the monadic basic one
 
     // The Monadic evaluator differs from the monadic basic one, by using flatmap. And since the defenition for flatmap
     // is located in a trait, we need extend it to use the flatmap.
- }
-//
- // Section 2.8 [Wadler] Variation two, revisited: State
+
+
+// Section 2.8 [Wadler] Variation two, revisited: State
 
 // object StateEvaluatorWithMonads {
 //

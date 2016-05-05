@@ -17,7 +17,7 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/charlotteqvist/AdvancedProgramming/120-miniproject-2/target/scala-2.11/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 53d739f7, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3341488a, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-deprecation[0m
 [0m[[0mdebug[0m] [0m	-feature[0m
@@ -25,14 +25,7 @@
 [0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes:/Users/charlotteqvist/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/Users/charlotteqvist/AdvancedProgramming/120-miniproject-2/target/scala-2.11/classes[0m
-[0m[[0mdebug[0m] [0mScala compilation took 4.744563788 s[0m
-[0m[[0mdebug[0m] [0mInvalidating /Users/charlotteqvist/AdvancedProgramming/120-miniproject-2/src/main/scala/adpro/monads/Term.scala...[0m
-[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /Users/charlotteqvist/AdvancedProgramming/120-miniproject-2/src/main/scala/adpro/monads/Term.scala...[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/charlotteqvist/AdvancedProgramming/120-miniproject-2/src/main/scala/adpro/monads/Term.scala)[0m
-[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/Users/charlotteqvist/AdvancedProgramming/120-miniproject-2/src/main/scala/adpro/monads/Term.scala)[0m
-[0m[[0mdebug[0m] [0mThe /Users/charlotteqvist/AdvancedProgramming/120-miniproject-2/src/main/scala/adpro/monads/Term.scala source file has the following regular definitions changed:[0m
-[0m[[0mdebug[0m] [0m	notify, unapply, wait, copy$default$2, $asInstanceOf, productArity, equals, line, asInstanceOf, synchronized, a, $isInstanceOf, M, canEqual, productPrefix, notifyAll, readResolve, isInstanceOf, eval, OutputEvaluator, <init>, apply, ==, Output, clone, copy, toString, !=, getClass, copy$default$1, ne, eq, productIterator, ##, finalize, o, productElement, hashCode.[0m
-[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.445505265 s[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
 [0m[[0mdebug[0m] [0m	Set()[0m
 [0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m

@@ -89,51 +89,51 @@ class  TermSpec extends FlatSpec with Checkers {
   it should "throw a scala exception on division by 0" in
   { intercept[java.lang.ArithmeticException] {
     StateEvaluator.eval (error).step (0) } }
-//
-//  // Section 2.4 [Wadler] Variation three: Output
-//
-//  val result = "eval(Con(1972)) <= 1972\n" +
-//               "eval(Con(2)) <= 2\n" +
-//               "eval(Div(Con(1972),Con(2))) <= 986\n" +
-//               "eval(Con(23)) <= 23\n" +
-//               "eval(Div(Div(Con(1972),Con(2)),Con(23))) <= 42\n"
-//
-//  behavior of "Output eval (answer)"
-//  it should "give good 'result' and string output" in {
-//    val r = OutputEvaluator.eval(answer)
-//    r.a shouldBe 42
-//    r.o shouldBe result
-//  }
-//  it should "return simple result for a constant" in {
-//    val r = OutputEvaluator.eval(const)
-//    r.a shouldBe 42
-//    r.o shouldBe "eval(Con(42)) <= 42\n"
-//  }
-//  it should "throw a scala exception on division by 0" in
-//  { intercept[java.lang.ArithmeticException] {
-//    OutputEvaluator.eval (error) } }
-//
-//
-//
+
+  // Section 2.4 [Wadler] Variation three: Output
+
+  val result = "eval(Con(1972)) <= 1972\n" +
+               "eval(Con(2)) <= 2\n" +
+               "eval(Div(Con(1972),Con(2))) <= 986\n" +
+               "eval(Con(23)) <= 23\n" +
+               "eval(Div(Div(Con(1972),Con(2)),Con(23))) <= 42\n"
+
+  behavior of "Output eval (answer)"
+  it should "give good 'result' and string output" in {
+    val r = OutputEvaluator.eval(answer)
+    r.a shouldBe 42
+    r.o shouldBe result
+  }
+  it should "return simple result for a constant" in {
+    val r = OutputEvaluator.eval(const)
+    r.a shouldBe 42
+    r.o shouldBe "eval(Con(42)) <= 42\n"
+  }
+  it should "throw a scala exception on division by 0" in
+  { intercept[java.lang.ArithmeticException] {
+    OutputEvaluator.eval (error) } }
+
+
+
 //  // Section 2.6 [Wadler] Variation zero, revisited: The basic evaluator
-//
-//  behavior of "Basic monadic eval"
-//
-//  it should "be 42 [Wadler]" in
-//  { BasicEvaluatorWithMonads.eval (answer).a shouldBe 42 }
-//  it should "return 42 for a constant " in {
-//    BasicEvaluatorWithMonads.eval (const).a shouldBe 42 }
-//
-//  it should "throw an exception" in
-//  { intercept[java.lang.ArithmeticException]
-//  { BasicEvaluatorWithMonads.eval (error) } }
-//
-//  it should "crash on unsafe terms" in check {
-//    forAll (genUnsafeTerm) ( (t: Term) => {
-//      intercept[java.lang.ArithmeticException] {
-//      BasicEvaluatorWithMonads.eval (t).a}; true }
-//    )
-//  }
+
+  behavior of "Basic monadic eval"
+
+  it should "be 42 [Wadler]" in
+  { BasicEvaluatorWithMonads.eval (answer).a shouldBe 42 }
+  it should "return 42 for a constant " in {
+    BasicEvaluatorWithMonads.eval (const).a shouldBe 42 }
+
+  it should "throw an exception" in
+  { intercept[java.lang.ArithmeticException]
+  { BasicEvaluatorWithMonads.eval (error) } }
+
+  it should "crash on unsafe terms" in check {
+    forAll (genUnsafeTerm) ( (t: Term) => {
+      intercept[java.lang.ArithmeticException] {
+      BasicEvaluatorWithMonads.eval (t).a}; true }
+    )
+  }
 //
 //
 //
