@@ -2,7 +2,6 @@
    Andrzej Wąsowski */
 
 package adpro.monads
-import adpro.monads.ExceptionEvaluatorWithMonads.Return
 
 import scala.language.higherKinds
 
@@ -44,10 +43,9 @@ object BasicEvaluator {
    trait M[+A]
    case class Raise (e: String) extends M[Nothing]
    case class Return[A] (a: A) extends M[A]
-//
-//   // an implementation of direct exception evaluator in Scala:
-//   // TODO: complete in place of "..."
-//
+
+  // an implementation of direct exception evaluator in Scala:
+  // TODO: complete in place of "..."
    def eval (term :Term) :M[Int] = term match {
      case Con(a) => Return (a)
      case Div(t,u) => eval(t) match {
@@ -100,9 +98,9 @@ object BasicEvaluator {
      def eval (term :Term) :M[Int] = term match {
         case Con(a) => M[Int](line(term)(a), a)
         case Div(t, u) => {
-          val x = eval(t)
-          val y = eval(u)
-          M[Int](x.o + y.o + line(term)(x.a/y.a), x.a/y.a)
+          val M(x,a) = eval(t)
+          val M(y,b) = eval(u)
+          M( x + y + line(term)(a/b) ,a/b)
         }
      }
    }
@@ -212,80 +210,93 @@ object MonadicEvaluator {
    // TODO: complete the evaluator
    def eval (term :Term) :M[Int] = term match {
      case Con (a) => M.unit (a)
-     case Div (t,u) => eval(u).flatMap(b => if (b == 0) Raise("/ by zero")
-     else eval(t).map(a => a / b))
+     case Div (t,u) => eval(u).flatMap(b =>
+       if (b == 0) Raise("divide by zero")
+       else eval(t).map(a => a / b))
    }
 }
 
    // TODO: Discuss in the group how the monadic evaluator with exceptions
    // differs from the monadic basic one
 
-    // The Monadic evaluator differs from the monadic basic one, by using flatmap. And since the defenition for flatmap
-    // is located in a trait, we need extend it to use the flatmap.
+  //It differs because you must evaluate u first to make sure that b is not equal to 0 before division.
+  //The other version does not do exception handling on zero division. World blows up.
 
 
 // Section 2.8 [Wadler] Variation two, revisited: State
 
-// object StateEvaluatorWithMonads {
-//
-//   type State = Int
-//
-//   case class M[+A] (step: State => (A,State)) extends Monad[A,M] {
-//
-//     // flatMap is bind or (*) in the paper
-//     def flatMap[B] (k :A => M[B]) = M[B] {
-//       x => { val (a,y) = this.step (x); k(a).step(y) } }
-//
-//     def map[B] (k :A => B) :M[B] =
-//       M[B] { x => { val (a,y) = this.step(x); (k(a),y) } }
-//   }
-//
-//   // TODO: complete the implementation of unit, based on the paper
-//   //object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = State }
-//
-//   // TODO: complete the implementation of the evalutor:
-//   def eval (term :Term) :M[State] = term match {
-//     case Con (a) => M.unit (a)
-//     case Div (t,u) => ...
-//   }
-//
-//   // TODO: Discuss in the group how the monadic evaluator with counter differs
-//   // from the monadic basic one (or the one with exceptions)
-//
-// }
+ object StateEvaluatorWithMonads {
+
+   type State = Int
+
+   case class M[+A] (step: State => (A,State)) extends Monad[A,M] {
+
+     // flatMap is bind or (*) in the paper
+     def flatMap[B] (k :A => M[B]) = M[B] {
+       x => { val (a,y) = this.step (x); k(a).step(y) } }
+
+     def map[B] (k :A => B) :M[B] =
+       M[B] { x => { val (a,y) = this.step(x); (k(a),y) } }
+   }
+
+   // TODO: complete the implementation of unit, based on the paper
+   object M extends MonadOps[M] {
+     def unit[A] (a : A) :M[A] = M[A] (x => (a, x))
+   }
+
+   def tick: M[Unit] = M { x => ((), x + 1) }
+
+   // TODO: complete the implementation of the evalutor:
+   def eval (term :Term) :M[State] = term match {
+     case Con(a) => M.unit(a)
+     case Div(m, k) => eval(m).flatMap(a =>
+       eval(k).flatMap(b =>
+         tick.map(_ => a / b)))
+   }
+
+   // TODO: Discuss in the group how the monadic evaluator with counter differs
+   // from the monadic basic one (or the one with exceptions)
+
+ }
 
  // Section 2.9 [Wadler] Output evaluator
 
-// object OutputEvaluatorWithMonads {
-//
-//   type Output = String
-//
-//   case class M[+A] (o: Output, a: A) {
-//
-//     // flatMap is (*) in [Wadler]
-//     // TODO: implement flatMap
-//     def flatMap[B] (k :A => M[B]) = M[B] {
-//       val (x, a) = k(a)
-//       (x + x, a)
-//     }
-//
-//     def map[B] (k :A => B) :M[B] = M[B] (this.o, k(this.a))
-//
-//   }
-//
-//   // TODO: implement unit
-//   object M { def unit[A] (a : A) :M[A] = ("", a) }
-//
-//   def line (a :Term) (v :Int) :Output =
-//     "eval(" + a.toString + ") <= " + v.toString + "\n"
-//
-//   // TODO: implement eval
-//   def eval (term :Term) :M[Int] = term match {
-//     case Con(a) => ...
-//     case Div(t, u) =>   ...
-//   }
-//
-//   // Discuss in the group how the monadic evaluator with output differs from
-//   // the monadic basic one (or the one with state/counter).
-// }
+ object OutputEvaluatorWithMonads {
+
+   type Output = String
+
+   case class M[+A] (o: Output, a: A) {
+
+     // flatMap is (*) in [Wadler]
+     // TODO: implement flatMap
+     def flatMap[B] (k :A => M[B]) = {
+       val (x,a) = (this.o,this.a)
+       val (y,b) = (k(this.a).o, k(this.a).a)
+       M(x+y,b)
+     }
+
+     def map[B] (k :A => B) :M[B] = M[B] (this.o, k(this.a))
+
+   }
+
+   // TODO: implement unit
+   object M { def unit[A] (a : A) :M[A] = M("", a) }
+
+   def line (a :Term) (v :Int) :Output =
+     "eval(" + a.toString + ") <= " + v.toString + "\n"
+
+   def out(x: Output): M[Unit] = M(x, ())
+
+   // TODO: implement eval
+   def eval (term :Term) :M[Int] = term match {
+     case Con(a) => out(line(term)(a)).map(_ => a)
+     case Div(m, k) =>
+       eval(m).flatMap(a =>
+         eval(k).flatMap(b =>
+           out(line(term)(a / b)).map(_ => a / b)))
+   }
+
+   // Discuss in the group how the monadic evaluator with output differs from
+   // the monadic basic one (or the one with state/counter).
+ }
 

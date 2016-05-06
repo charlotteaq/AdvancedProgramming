@@ -134,112 +134,112 @@ class  TermSpec extends FlatSpec with Checkers {
       BasicEvaluatorWithMonads.eval (t).a}; true }
     )
   }
-//
-//
-//
-//  behavior of "Basic evalutors"
-//
-//  it should "behave identically" in check {
-//    forAll (genSafeTerm) ( (t: Term) =>
-//      BasicEvaluatorWithMonads.eval (t).a == BasicEvaluator.eval(t))
-//  }
-//
-//
-//  // Section 2.7 [Wadler] Variation one, revisited: Exceptions
-//
-//  behavior of "Monadic exception eval"
-//
-//  it should "be Return(42) [Wadler]" in {
-//    ExceptionEvaluatorWithMonads.eval (answer) shouldBe
-//      ExceptionEvaluatorWithMonads.Return(42)
-//  }
-//
-//  it should "return an exception on division by zero" in {
-//    (ExceptionEvaluatorWithMonads.eval (error)) shouldBe
-//      a [ExceptionEvaluatorWithMonads.Raise]
-//  }
-//
-//  def toBasic (m: ExceptionEvaluatorWithMonads.M[Int])
-//    : ExceptionEvaluator.M[Int] =  m match {
-//      case ExceptionEvaluatorWithMonads.Raise (s) => ExceptionEvaluator.Raise(s)
-//      case ExceptionEvaluatorWithMonads.Return (a) => ExceptionEvaluator.Return(a)
-//  }
-//
-//
-//
-//  behavior of "Exception evalutors"
-//
-//  it should "behave identically (safe)" in check {
-//    forAll (genSafeTerm) ( (t: Term) =>
-//      toBasic(ExceptionEvaluatorWithMonads.eval (t)) ==
-//        ExceptionEvaluator.eval(t))
-//  }
-//
-//  it should "behave identically (unsafe)" in check {
-//    forAll (genUnsafeTerm) ( (t: Term) =>
-//      toBasic(ExceptionEvaluatorWithMonads.eval (t)) ==
-//        ExceptionEvaluator.eval(t))
-//  }
-//
-//  // Section 2.8 [Wadler] Variation two, revisited: State
-//
-//  behavior of "Monadic state eval"
-//  it should "should count two divisions" in check {
-//    forAll { (n: Int) =>
-//      StateEvaluatorWithMonads.eval (answer).step (n) == (42,n+2) } }
-//
-//  it should "should count no divisions" in check {
-//    forAll { (n: Int) =>
-//      StateEvaluatorWithMonads.eval (const).step (n) == (42,n) } }
-//
-//  it should "throw a scala exception on division by 0" in
-//  { intercept[java.lang.ArithmeticException] {
-//  StateEvaluatorWithMonads.eval (error).step (0) } }
-//
-//  behavior of "State evaluators"
-//
-//  it should "behave identically (safe)" in check {
-//    forAll (genSafeTerm) ( (t: Term) =>
-//        forAll { (n: Int) =>
-//      StateEvaluator.eval (t).step(n) ==
-//        StateEvaluatorWithMonads.eval(t).step (n)
-//     })
-//  }
-//
-//
-//  // Section 2.9 [Wadler] Output evaluator
-//
-//  behavior of "Monadic output eval"
-//  it should "give good result and string output" in {
-//    val r = OutputEvaluatorWithMonads.eval(answer)
-//    r.a shouldBe 42
-//    r.o shouldBe result
-//  }
-//
-//  it should "return simple result for a constant" in {
-//    val r = OutputEvaluatorWithMonads.eval(const)
-//    r.a shouldBe 42
-//    r.o shouldBe "eval(Con(42)) <= 42\n"
-//  }
-//  it should "throw a scala exception on division by 0" in
-//  { intercept[java.lang.ArithmeticException] {
-//    OutputEvaluatorWithMonads.eval (error) } }
-//
-//
-//  behavior of "Output evaluators"
-//
-//  private def repackage (r :OutputEvaluatorWithMonads.M[Int])
-//      : OutputEvaluator.M[Int] =
-//    r match { case OutputEvaluatorWithMonads.M(o,a) => OutputEvaluator.M(o,a) }
-//
-//  it should "behave identically (safe)" in check {
-//    forAll (genSafeTerm) ( (t: Term) =>
-//      OutputEvaluator.eval (t) == repackage(OutputEvaluatorWithMonads.eval(t))
-//    )
-//  }
 
 
-  // AW TODO: look into monadic tests in Wadler's paper (Section 3)
-  // AW TODO: refactor for DRY
+
+  behavior of "Basic evalutors"
+
+  it should "behave identically" in check {
+    forAll (genSafeTerm) ( (t: Term) =>
+      BasicEvaluatorWithMonads.eval (t).a == BasicEvaluator.eval(t))
+  }
+
+
+  // Section 2.7 [Wadler] Variation one, revisited: Exceptions
+
+  behavior of "Monadic exception eval"
+
+  it should "be Return(42) [Wadler]" in {
+    ExceptionEvaluatorWithMonads.eval (answer) shouldBe
+      ExceptionEvaluatorWithMonads.Return(42)
+  }
+
+  it should "return an exception on division by zero" in {
+    (ExceptionEvaluatorWithMonads.eval (error)) shouldBe
+      a [ExceptionEvaluatorWithMonads.Raise]
+  }
+
+  def toBasic (m: ExceptionEvaluatorWithMonads.M[Int])
+    : ExceptionEvaluator.M[Int] =  m match {
+      case ExceptionEvaluatorWithMonads.Raise (s) => ExceptionEvaluator.Raise(s)
+      case ExceptionEvaluatorWithMonads.Return (a) => ExceptionEvaluator.Return(a)
+  }
+
+
+
+  behavior of "Exception evalutors"
+
+  it should "behave identically (safe)" in check {
+    forAll (genSafeTerm) ( (t: Term) =>
+      toBasic(ExceptionEvaluatorWithMonads.eval (t)) ==
+        ExceptionEvaluator.eval(t))
+  }
+
+  it should "behave identically (unsafe)" in check {
+    forAll (genUnsafeTerm) ( (t: Term) =>
+      toBasic(ExceptionEvaluatorWithMonads.eval (t)) ==
+        ExceptionEvaluator.eval(t))
+  }
+
+  // Section 2.8 [Wadler] Variation two, revisited: State
+
+  behavior of "Monadic state eval"
+  it should "should count two divisions" in check {
+    forAll { (n: Int) =>
+      StateEvaluatorWithMonads.eval (answer).step (n) == (42,n+2) } }
+
+  it should "should count no divisions" in check {
+    forAll { (n: Int) =>
+      StateEvaluatorWithMonads.eval (const).step (n) == (42,n) } }
+
+  it should "throw a scala exception on division by 0" in
+  { intercept[java.lang.ArithmeticException] {
+  StateEvaluatorWithMonads.eval (error).step (0) } }
+
+  behavior of "State evaluators"
+
+  it should "behave identically (safe)" in check {
+    forAll (genSafeTerm) ( (t: Term) =>
+        forAll { (n: Int) =>
+      StateEvaluator.eval (t).step(n) ==
+        StateEvaluatorWithMonads.eval(t).step (n)
+     })
+  }
+
+
+  // Section 2.9 [Wadler] Output evaluator
+
+  behavior of "Monadic output eval"
+  it should "give good result and string output" in {
+    val r = OutputEvaluatorWithMonads.eval(answer)
+    r.a shouldBe 42
+    r.o shouldBe result
+  }
+
+  it should "return simple result for a constant" in {
+    val r = OutputEvaluatorWithMonads.eval(const)
+    r.a shouldBe 42
+    r.o shouldBe "eval(Con(42)) <= 42\n"
+  }
+  it should "throw a scala exception on division by 0" in
+  { intercept[java.lang.ArithmeticException] {
+    OutputEvaluatorWithMonads.eval (error) } }
+
+
+  behavior of "Output evaluators"
+
+  private def repackage (r :OutputEvaluatorWithMonads.M[Int])
+      : OutputEvaluator.M[Int] =
+    r match { case OutputEvaluatorWithMonads.M(o,a) => OutputEvaluator.M(o,a) }
+
+  it should "behave identically (safe)" in check {
+    forAll (genSafeTerm) ( (t: Term) =>
+      OutputEvaluator.eval (t) == repackage(OutputEvaluatorWithMonads.eval(t))
+    )
+  }
+
+
+//   AW TODO: look into monadic tests in Wadler's paper (Section 3)
+//   AW TODO: refactor for DRY
 
 }
