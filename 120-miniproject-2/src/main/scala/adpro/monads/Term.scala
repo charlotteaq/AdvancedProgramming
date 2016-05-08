@@ -46,6 +46,7 @@ object BasicEvaluator {
 
   // an implementation of direct exception evaluator in Scala:
   // TODO: complete in place of "..."
+
    def eval (term :Term) :M[Int] = term match {
      case Con(a) => Return (a)
      case Div(t,u) => eval(t) match {
@@ -95,8 +96,9 @@ object BasicEvaluator {
 
 
   // TODO: complete the implementation of the eval function
+
      def eval (term :Term) :M[Int] = term match {
-        case Con(a) => M[Int](line(term)(a), a)
+        case Con(a) => M(line(term)(a), a)
         case Div(t, u) => {
           val M(x,a) = eval(t)
           val M(y,b) = eval(u)
@@ -136,7 +138,6 @@ object MonadicEvaluator {
 
   case class M[A](a: A) extends Monad[A, M] {
     def flatMap[B](k: A => M[B]): M[B] = k(this.a)
-
     def map[B](k: A => B): M[B] = M.unit(k(this.a))
   }
 
@@ -167,7 +168,9 @@ object MonadicEvaluator {
    }
 
    // The paper also uses unit, so we put it in the companion object
-   object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = M[A] (a) }
+   object M extends MonadOps[M] {
+     def unit[A] (a : A) :M[A] = M[A] (a)
+   }
 
    def eval (term: Term) :M[Int] = term match {
      case Con (a) => M.unit (a)
@@ -182,9 +185,8 @@ object MonadicEvaluator {
 //    obscuring things, you may want to rewrite the above using just map and
 //    flatMap.
  }
-//
-// // Section 2.7 [Wadler] The monadic evaluator with exceptions
-//
+
+// Section 2.7 [Wadler] The monadic evaluator with exceptions
  object ExceptionEvaluatorWithMonads {
 
    type Exception = String
@@ -202,7 +204,9 @@ object MonadicEvaluator {
      }
    }
 
-   object M extends MonadOps[M] { def unit[A] (a : A) :M[A] = Return (a) }
+   object M extends MonadOps[M] {
+     def unit[A] (a : A) :M[A] = Return (a)
+   }
 
    case class Raise (e: String) extends M[Nothing]
    case class Return[A] (a: A) extends M[A]
@@ -241,12 +245,13 @@ object MonadicEvaluator {
 
    // TODO: complete the implementation of unit, based on the paper
    object M extends MonadOps[M] {
-     def unit[A] (a : A) :M[A] = M[A] (x => (a, x))
+     def unit[A] (a : A) :M[A] = M(x => (a, x))
    }
 
    def tick: M[Unit] = M { x => ((), x + 1) }
 
    // TODO: complete the implementation of the evalutor:
+
    def eval (term :Term) :M[State] = term match {
      case Con(a) => M.unit(a)
      case Div(m, k) => eval(m).flatMap(a =>
@@ -269,8 +274,9 @@ object MonadicEvaluator {
 
      // flatMap is (*) in [Wadler]
      // TODO: implement flatMap
+
      def flatMap[B] (k :A => M[B]) = {
-       val (x,a) = (this.o,this.a)
+       val (x,a) = (this.o, this.a)
        val (y,b) = (k(this.a).o, k(this.a).a)
        M(x+y,b)
      }
@@ -280,7 +286,10 @@ object MonadicEvaluator {
    }
 
    // TODO: implement unit
-   object M { def unit[A] (a : A) :M[A] = M("", a) }
+
+   object M {
+     def unit[A] (a : A) :M[A] = M("", a)
+   }
 
    def line (a :Term) (v :Int) :Output =
      "eval(" + a.toString + ") <= " + v.toString + "\n"
@@ -288,6 +297,7 @@ object MonadicEvaluator {
    def out(x: Output): M[Unit] = M(x, ())
 
    // TODO: implement eval
+
    def eval (term :Term) :M[Int] = term match {
      case Con(a) => out(line(term)(a)).map(_ => a)
      case Div(m, k) =>

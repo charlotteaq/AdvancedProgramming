@@ -34,7 +34,7 @@
 [0m[[0minfo[0m] [0m[31m    Falsified after 0 successful property evaluations.[0m[0m
 [0m[[0minfo[0m] [0m[31m    Location: (TermSpec.scala:178)[0m[0m
 [0m[[0minfo[0m] [0m[31m    Occurred when passed generated values ([0m[0m
-[0m[[0minfo[0m] [0m[31m      arg0 = Div(Con(73),Con(0))[0m[0m
+[0m[[0minfo[0m] [0m[31m      arg0 = Div(Con(174),Con(0))[0m[0m
 [0m[[0minfo[0m] [0m[31m    )[0m[0m
 [0m[[0minfo[0m] [0m[32mMonadic state eval[0m[0m
 [0m[[0minfo[0m] [0m[32m- should should count two divisions[0m[0m
