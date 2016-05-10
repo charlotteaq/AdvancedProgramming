@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71d72243-ebc5-4ab6-a539-660cee7da40f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$$anonfun$eval$4$$anonfun$apply$4$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$$anonfun$eval$4$$anonfun$apply$4$$anonfun$apply$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$$anonfun$eval$4$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$$anonfun$eval$4$$anonfun$apply$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$$anonfun$eval$4.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$$anonfun$eval$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$M$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$M$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$M.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/BasicEvaluatorWithMonads$M.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluator$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluator$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$$anonfun$eval$5$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$$anonfun$eval$5$$anonfun$apply$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$$anonfun$eval$5.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$$anonfun$eval$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$M$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$M$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$M$class.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$M$class.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Raise$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Raise$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Raise.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Raise.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Return$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Return$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Return.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/ExceptionEvaluatorWithMonads$Return.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$$anonfun$eval$3$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$$anonfun$eval$3$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$$anonfun$eval$3.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$$anonfun$eval$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$M$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$M$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$M.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/MonadicEvaluator$M.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluator$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluator$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluator$M$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluator$M$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluator$M.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluator$M.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$7.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$8$$anonfun$apply$7$$anonfun$apply$8.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$8$$anonfun$apply$7$$anonfun$apply$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$8$$anonfun$apply$7.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$8$$anonfun$apply$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$8.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$$anonfun$eval$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$M$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$M$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$M.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/OutputEvaluatorWithMonads$M.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$$anonfun$eval$1.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$$anonfun$eval$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$$anonfun$eval$2.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$$anonfun$eval$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$M$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$M$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$M.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluator$M.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$eval$6$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$eval$6$$anonfun$apply$5$$anonfun$apply$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$eval$6$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$eval$6$$anonfun$apply$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$eval$6.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$eval$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$tick$1.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$$anonfun$tick$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$$anonfun$flatMap$1.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$$anonfun$flatMap$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$$anonfun$map$1.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$$anonfun$map$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$$anonfun$unit$1.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$$anonfun$unit$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M.class" afterPath="$PROJECT_DIR$/120-miniproject-2/target/scala-2.11/classes/adpro/monads/StateEvaluatorWithMonads$M.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/120-miniproject-2/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/src/main/scala/adpro/monads/Term.scala" afterPath="$PROJECT_DIR$/120-miniproject-2/src/main/scala/adpro/monads/Term.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/src/test/scala/adpro/monads/TermSpec.scala" afterPath="$PROJECT_DIR$/120-miniproject-2/src/test/scala/adpro/monads/TermSpec.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/$global/$global/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/definedTests/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/test/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/test/$global/streams/succeeded_tests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/test/isModule=false name=adpro.monads.TermSpec/test/out" afterPath="$PROJECT_DIR$/120-miniproject-2/target/streams/test/test/isModule=false name=adpro.monads.TermSpec/test/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/120-miniproject-2/target/test-reports/adpro.monads.TermSpec.xml" afterPath="$PROJECT_DIR$/120-miniproject-2/target/test-reports/adpro.monads.TermSpec.xml" />
-    </list>
+    <list default="true" id="71d72243-ebc5-4ab6-a539-660cee7da40f" name="Default" comment="" />
     <ignored path="Chapter2.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -124,7 +64,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -133,90 +75,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdvancedProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdvancedProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="120-miniproject-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdvancedProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="120-miniproject-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdvancedProgramming" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="120-miniproject-2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adpro" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="monads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Term.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,39 +195,40 @@
       <option name="presentableId" value="Default" />
       <updated>1462711465644</updated>
       <workItem from="1462711469309" duration="35000" />
+      <workItem from="1462873546436" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35000" />
+    <option name="totallyTimeSpent" value="43000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="23" width="1403" height="877" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981631" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
