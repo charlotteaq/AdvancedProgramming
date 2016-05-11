@@ -1,0 +1,325 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+32 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/A$$anonfun$1.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/A.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/B$$anonfun$2.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/B.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/DynamicDispatchMain$.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/DynamicDispatchMain$delayedInit$body.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/DynamicDispatchMain.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$1.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$2.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$3.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$4$$anonfun$apply$1.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$4.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$compose$1.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$curry$1$$anonfun$apply$2.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$curry$1.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$uncurry$1.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$Expense.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$delayedInit$body.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Functional$.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Functional.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Imperative$$anonfun$factorial$1.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Imperative$.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Imperative.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Main$.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Main$delayedInit$body.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Main.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/TailRecursive$.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/TailRecursive.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/MyModule$.class
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> /Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/MyModule.class
+binary dependencies:
+8 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> /Users/charlotteqvist/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /Users/charlotteqvist/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> /Users/charlotteqvist/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> /Users/charlotteqvist/.sbt/boot/scala-2.10.5/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+32 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> A
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> A$$anonfun$1
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> B
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> B$$anonfun$2
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> DynamicDispatchMain
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> DynamicDispatchMain$
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> DynamicDispatchMain$delayedInit$body
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$2
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$3
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$4
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$4$$anonfun$apply$1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$compose$1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$curry$1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$curry$1$$anonfun$apply$2
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$$anonfun$uncurry$1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$Expense
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises$delayedInit$body
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Functional
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Functional$
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Imperative
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Imperative$
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Imperative$$anonfun$factorial$1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Main
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Main$
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Main$delayedInit$body
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> TailRecursive
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> TailRecursive$
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> MyModule
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> MyModule$
+used names:
+135 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> <init>
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> A
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> AnyRef
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> App
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> B
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> DynamicDispatchMain
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> Predef
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> a1
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> a2
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> apply
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> b1
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> f
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> g
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> println
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> scala
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> %
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> &&
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> *
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> +
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> -
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> /
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> <
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> <=
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> <init>
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> ==
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> >
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> >=
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> A
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Any
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> AnyRef
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> App
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Array
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> B
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Boolean
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> C
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> ClassTag
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Double
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Exercises
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Expense
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Function1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Function2
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Int
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Nothing
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> Predef
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> String
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> _root_
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> a
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> apply
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> as
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> assert
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> b
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> curry
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> expenses
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> f
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> fib
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> fib1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> g
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> i
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> isSorted
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> iter
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> length
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> materializeClassTag
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> n
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> ordered
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> package
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> power
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> power1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> power_curried
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> power_uncurried
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> price
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> price_=
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> println
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> res
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> scala
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> subtotal
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> sum
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> tag
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> tag_=
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> testcase1
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> total
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> unary_!
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> uncurry
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> x
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> *
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> +
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> -
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> <=
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> <init>
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> AnyRef
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> App
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Functional
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Imperative
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Int
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Main
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> Predef
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> TailRecursive
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> f
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> factorial
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> foreach
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> i
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> intWrapper
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> n
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> println
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> r
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> result
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> scala
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> to
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> *
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> -
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> <
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> <init>
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> ==
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> AnyRef
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> Array
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> Int
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> MyModule
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> None
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> Option
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> Predef
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> String
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> StringContext
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> Unit
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> abs
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> assert
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> formatAbs
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> i
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> magic
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> n
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> println
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> result
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> s
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> scala
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> sqr
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> unary_-
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> x
+product stamps:
+32 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/A$$anonfun$1.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/A.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/B$$anonfun$2.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/B.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/DynamicDispatchMain$.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/DynamicDispatchMain$delayedInit$body.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/DynamicDispatchMain.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$1.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$2.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$3.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$4$$anonfun$apply$1.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$4.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$compose$1.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$curry$1$$anonfun$apply$2.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$curry$1.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$$anonfun$uncurry$1.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$Expense.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises$delayedInit$body.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Exercises.class -> lastModified(1462956302000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Functional$.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Functional.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Imperative$$anonfun$factorial$1.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Imperative$.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Imperative.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Main$.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Main$delayedInit$body.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/Main.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/MyModule$.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/MyModule.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/TailRecursive$.class -> lastModified(1462905634000)
+/Users/charlotteqvist/2016-adpro-code-examples/010/target/scala-2.10/classes/TailRecursive.class -> lastModified(1462905634000)
+source stamps:
+4 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> hash(e84929cf4d954eac89a4413b542997f9d42b2fd0)
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> hash(9f6985e6ad0a80ed1362ec4cf7cadf824a57319a)
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> hash(733ffd06a5933582c01db30dad9a65032a9448a4)
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> hash(88a622688ecf61905d57e439db808529d26fe331)
+binary stamps:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1450827058000)
+/Users/charlotteqvist/.sbt/boot/scala-2.10.5/lib/scala-library.jar -> lastModified(1449084478000)
+class names:
+2 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/charlotteqvist/.sbt/boot/scala-2.10.5/lib/scala-library.jar -> scala.App
+internal apis:
+4 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB+TjuCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAInNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJvld/h0AAZub3RpZnlzcQB+AAzyc8aRdAAEd2FpdHNxAH4ADDUbV+B0AA0kYXNJbnN0YW5jZU9mc3EAfgAMoByTk3QABmVxdWFsc3NxAH4ADD+YmQZ0AAxhc0luc3RhbmNlT2ZzcQB+AAzPATQBdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAxdSqrodAABZnNxAH4ADJfX4Wx0AAxzeW5jaHJvbml6ZWRzcQB+AAz0NWXhdAABQXNxAH4ADG+WfVR0AA0kaXNJbnN0YW5jZU9mc3EAfgAMdpZr/3QAAmIxc3EAfgAMqENIFnQABV9hcmdzc3EAfgAMSQTBqHQABG1haW5zcQB+AAxOlr18dAAIaW5pdENvZGVzcQB+AAzLfDtPdAAJbm90aWZ5QWxsc3EAfgAMmDoqf3QADGlzSW5zdGFuY2VPZnNxAH4ADHbPoo90AAY8aW5pdD5zcQB+AAx7MRPVdAABZ3NxAH4ADAXoalZ0AAFCc3EAfgAMfdycAnQAAj09c3EAfgAMdTEVz3QABWNsb25lc3EAfgAM7USMbXQAE0R5bmFtaWNEaXNwYXRjaE1haW5zcQB+AAz1lUwadAAIdG9TdHJpbmdzcQB+AAx7VHN5dAAEYXJnc3NxAH4ADJJ5Lt90AAIhPXNxAH4ADLEaUC90AAJhMXNxAH4ADE6JXXt0AAhnZXRDbGFzc3NxAH4ADCVwn4h0AAJuZXNxAH4ADH0CllJ0AAJlcXNxAH4ADM12ru10AAJhMnNxAH4ADFf8SeJ0AAtkZWxheWVkSW5pdHNxAH4ADFu+AGR0AAIjI3NxAH4ADOVToCh0AAhmaW5hbGl6ZXNxAH4ADICvH5x0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4AH3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Ac3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcgBwc3EAfgB3c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4Ae3NxAH4AcgBwc3EAfgB3dXEAfgBWAAAAAHNxAH4AcgBwc3EAfgB3dXEAfgBWAAAAAHNxAH4AcgBwc3EAfgB3dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB6dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB6c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCXdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCYc3EAfgCLdAADQW55c3EAfgCPc3EAfgCSdXEAfgCVAAAAAnNxAH4Al3QABXNjYWxhcQB+AJ5zcQB+AFhxAH4AZXVxAH4AZgAAAABzcQB+AGgAcQB+ADN1cQB+AGoAAAAAcQB+AG51cQB+AHAAAAAAc3EAfgByAHBzcQB+AHdxAH4AfHNxAH4AcgBwc3EAfgB3c3EAfgB/c3EAfgByAHBzcQB+AHd1cQB+AFYAAAAAc3EAfgByAHBzcQB+AHd1cQB+AFYAAAAAc3EAfgByAHBzcQB+AHd1cQB+AIkAAAADc3EAfgCLdAABQXNxAH4Aj3NxAH4AknVxAH4AlQAAAAFxAH4AnnNxAH4Ai3EAfgCOc3EAfgCPc3EAfgCSdXEAfgCVAAAAA3NxAH4Al3EAfgCac3EAfgCXcQB+AJxxAH4AnnNxAH4Ai3EAfgCgc3EAfgCPc3EAfgCSdXEAfgCVAAAAAnNxAH4Al3EAfgClcQB+AJ5zcQB+AFhxAH4AZXVxAH4AZgAAAABzcQB+AGgAcQB+ADl1cQB+AGoAAAAAfnEAfgBsdAAGTW9kdWxldXEAfgBwAAAAAHNxAH4AcgBwc3EAfgB3cQB+AHxzcQB+AHIAcHNxAH4Ad3NxAH4Af3NxAH4AcgBwc3EAfgB3dXEAfgBWAAAAAHNxAH4AcgBwc3EAfgB3dXEAfgBWAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBccQB+AGV1cQB+AGYAAAAAc3EAfgBoAHEAfgAndXEAfgBqAAAAAHNxAH4Ai3QABFVuaXRzcQB+AI9zcQB+AJJ1cQB+AJUAAAACc3EAfgCXcQB+AKVxAH4AnnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+ANx4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AG10AAVQbGFpbnEAfgA9c3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCMWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgB6c3EAfgCLdAAFQXJyYXlxAH4A5HVxAH4AiQAAAAFzcQB+AIt0AAZTdHJpbmdzcQB+AI9zcQB+AJJ1cQB+AJUAAAADc3EAfgCXcQB+AJpzcQB+AJdxAH4AnHEAfgCec3EAfgByAHBzcQB+AHd1cQB+AIkAAAAEc3EAfgCLdAADQXBwcQB+AORzcQB+AIt0AAtEZWxheWVkSW5pdHEAfgDkc3EAfgCLcQB+AI5xAH4A/XNxAH4Ai3EAfgCgcQB+AOR1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVJv4d211cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABML1VzZXJzL2NoYXJsb3R0ZXF2aXN0LzIwMTYtYWRwcm8tY29kZS1leGFtcGxlcy8wMTAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFOhJKc9NlU6siaRBO1Qpl/nUKy/Q
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAyOVRnAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJwbsch0AAZub3RpZnlzcQB+AAwWQ+HldAADZmlic3EAfgAMOeklo3QAAXhzcQB+AAx7jNtIdAAEd2FpdHNxAH4ADFcPWbl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMH51uunQAB2NvbXBvc2VzcQB+AAz7vEDydAAIaXNTb3J0ZWRzcQB+AAwZPXXldAAGZXF1YWxzc3EAfgAMS0+Y4nQAB3VuY3VycnlzcQB+AAySW6bedAADdGFnc3EAfgAMj+W4xXQADGFzSW5zdGFuY2VPZnNxAH4ADI55byZ0AA5leGVjdXRpb25TdGFydHNxAH4ADCaTgn10AAVjdXJyeXNxAH4ADBRyKY10AAdFeHBlbnNlc3EAfgAMaC94HHQABXByaWNlc3EAfgAMVs6djnQADHN5bmNocm9uaXplZHNxAH4ADFTbHvt0AA0kaXNJbnN0YW5jZU9mc3EAfgAMrQnWEnQABV9hcmdzc3EAfgAMpb2Pv3QABG1haW5zcQB+AAxgPbq6dAAJdGVzdGNhc2Uxc3EAfgAM9icqlHQABXRvdGFsc3EAfgAMTn2pQ3QACGluaXRDb2Rlc3EAfgAMUm6tuHQACW5vdGlmeUFsbHNxAH4ADH0rNg10AAlFeGVyY2lzZXNzcQB+AAxuZF4/dAAMaXNJbnN0YW5jZU9mc3EAfgAM/qNAFHQABjxpbml0PnNxAH4ADLKfu4V0AA9wb3dlcl91bmN1cnJpZWRzcQB+AAyCfCeBdAACPT1zcQB+AAxf0/EYdAAFY2xvbmVzcQB+AAwDd1xmdAANcG93ZXJfY3VycmllZHNxAH4ADDZcvbl0AAh0b1N0cmluZ3NxAH4ADK2D1Kt0AARhcmdzc3EAfgAMGH4J3HQAAiE9c3EAfgAM4v4QJXQACGdldENsYXNzc3EAfgAMT7MdTXQABnBvd2VyMXNxAH4ADC+jI6R0AAVwb3dlcnNxAH4ADBuOx9t0AAJuZXNxAH4ADFV2yxd0AAJlcXNxAH4ADOvc4lB0AAtkZWxheWVkSW5pdHNxAH4ADLqFIDF0AAIjI3NxAH4ADGu0ep90AAhmaW5hbGl6ZXNxAH4ADDCafyl0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cABxAH4APXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIN4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIIAcHNxAH4Ah3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBrTAAJaW5oZXJpdGVkcQB+AGtMAAdwYXJlbnRzcQB+AGt4cQB+AItzcQB+AIIAcHNxAH4Ah3VxAH4AZgAAAABzcQB+AIIAcHNxAH4Ah3VxAH4AZgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AbHEAfgB1dXEAfgB2AAAAAHNxAH4AeABxAH4AM3VxAH4AegAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCKdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AinNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Aq3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AJh4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AH10AAVQbGFpbnEAfgBNc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCfWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCKc3EAfgCedAAFQXJyYXlxAH4ApHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCedAAGU3RyaW5nc3EAfgCic3EAfgCldXEAfgCoAAAAA3NxAH4AqnQABGphdmFzcQB+AKp0AARsYW5ncQB+AK9zcQB+AIIAcHNxAH4Ah3VxAH4AwgAAAARzcQB+AJ50AANBcHBxAH4ApHNxAH4AnnQAC0RlbGF5ZWRJbml0cQB+AKRzcQB+AJ50AAZPYmplY3RxAH4AxnNxAH4AnnQAA0FueXEAfgCkdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVSe/ZbkdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQATC9Vc2Vycy9jaGFybG90dGVxdmlzdC8yMDE2LWFkcHJvLWNvZGUtZXhhbXBsZXMvMDEwL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSfaYXmrQqA7RNi7Ez3yt+CSlcxmg==
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHByHipPAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cK0chxl0AAZub3RpZnlzcQB+AAwgNLDcdAANVGFpbFJlY3Vyc2l2ZXNxAH4ADAIia810AAlmYWN0b3JpYWxzcQB+AAxbhVWYdAAEd2FpdHNxAH4ADEG+dy10AA0kYXNJbnN0YW5jZU9mc3EAfgAM+Py8h3QABmVxdWFsc3NxAH4ADCVdfDB0AAxhc0luc3RhbmNlT2ZzcQB+AAy8x8UMdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAzfsA8UdAAKSW1wZXJhdGl2ZXNxAH4ADE2aemt0AAxzeW5jaHJvbml6ZWRzcQB+AAz3RwRndAANJGlzSW5zdGFuY2VPZnNxAH4ADBsFDfF0AAVfYXJnc3NxAH4ADCByHox0AARtYWluc3EAfgAMTQ0ukXQACGluaXRDb2Rlc3EAfgAM3RJCc3QACW5vdGlmeUFsbHNxAH4ADOlzlFF0AAxpc0luc3RhbmNlT2ZzcQB+AAze2sDMdAACPT1zcQB+AAw84MPAdAAFY2xvbmVzcQB+AAx9+amSdAAETWFpbnNxAH4ADNsDxnR0AAh0b1N0cmluZ3NxAH4ADI4HzDt0AApGdW5jdGlvbmFsc3EAfgAM5MrP9HQABGFyZ3NzcQB+AAwX/USPdAACIT1zcQB+AAwWQbutdAAIZ2V0Q2xhc3NzcQB+AAwq6HfqdAACbmVzcQB+AAynJPP0dAACZXFzcQB+AAzCtuZjdAALZGVsYXllZEluaXRzcQB+AAyEWxk+dAACIyNzcQB+AAyep8icdAAIZmluYWxpemVzcQB+AAytISurdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAEc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBTeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AB91cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBreHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBqAHBzcQB+AG9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AU0wACWluaGVyaXRlZHEAfgBTTAAHcGFyZW50c3EAfgBTeHEAfgBzc3EAfgBqAHBzcQB+AG91cQB+AE4AAAAAc3EAfgBqAHBzcQB+AG91cQB+AE4AAAAAc3EAfgBqAHBzcQB+AG91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHJ0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHJzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AI90AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJBzcQB+AIN0AANBbnlzcQB+AIdzcQB+AIp1cQB+AI0AAAACc3EAfgCPdAAFc2NhbGFxAH4AlnNxAH4AUHEAfgBddXEAfgBeAAAAAHNxAH4AYABxAH4AN3VxAH4AYgAAAABxAH4AZnVxAH4AaAAAAABzcQB+AGoAcHNxAH4Ab3EAfgB0c3EAfgBqAHBzcQB+AG9zcQB+AHdzcQB+AGoAcHNxAH4Ab3VxAH4ATgAAAABzcQB+AGoAcHNxAH4Ab3VxAH4ATgAAAABzcQB+AGoAcHNxAH4Ab3VxAH4AgQAAAAJzcQB+AINxAH4AhnNxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI9xAH4AknNxAH4Aj3EAfgCUcQB+AJZzcQB+AINxAH4AmHNxAH4Ah3NxAH4AinVxAH4AjQAAAAJzcQB+AI9xAH4AnXEAfgCWc3EAfgBQcQB+AF11cQB+AF4AAAAAc3EAfgBgAHEAfgARdXEAfgBiAAAAAHEAfgBmdXEAfgBoAAAAAHNxAH4AagBwc3EAfgBvcQB+AHRzcQB+AGoAcHNxAH4Ab3NxAH4Ad3NxAH4AagBwc3EAfgBvdXEAfgBOAAAAAHNxAH4AagBwc3EAfgBvdXEAfgBOAAAAAHNxAH4AagBwc3EAfgBvdXEAfgCBAAAAAnNxAH4Ag3EAfgCGc3EAfgCHc3EAfgCKdXEAfgCNAAAAA3NxAH4Aj3EAfgCSc3EAfgCPcQB+AJRxAH4AlnNxAH4Ag3EAfgCYc3EAfgCHc3EAfgCKdXEAfgCNAAAAAnNxAH4Aj3EAfgCdcQB+AJZzcQB+AFBxAH4AXXVxAH4AXgAAAABzcQB+AGAAcQB+ADN1cQB+AGIAAAAAcQB+AGZ1cQB+AGgAAAAAc3EAfgBqAHBzcQB+AG9xAH4AdHNxAH4AagBwc3EAfgBvc3EAfgB3c3EAfgBqAHBzcQB+AG91cQB+AE4AAAAAc3EAfgBqAHBzcQB+AG91cQB+AE4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AFRxAH4AXXVxAH4AXgAAAABzcQB+AGAAcQB+ACd1cQB+AGIAAAAAc3EAfgCDdAAEVW5pdHNxAH4Ah3NxAH4AinVxAH4AjQAAAAJzcQB+AI9xAH4AnXEAfgCWdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4A63hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AZXQABVBsYWlucQB+ADlzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AIRbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHJzcQB+AIN0AAVBcnJheXEAfgDzdXEAfgCBAAAAAXNxAH4Ag3QABlN0cmluZ3NxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI9xAH4AknNxAH4Aj3EAfgCUcQB+AJZzcQB+AGoAcHNxAH4Ab3VxAH4AgQAAAARzcQB+AIN0AANBcHBxAH4A83NxAH4Ag3QAC0RlbGF5ZWRJbml0cQB+APNzcQB+AINxAH4AhnEAfgEMc3EAfgCDcQB+AJhxAH4A83VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFUm/h3bXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvVXNlcnMvY2hhcmxvdHRlcXZpc3QvMjAxNi1hZHByby1jb2RlLWV4YW1wbGVzLzAxMC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUcz/9BqWTNYLAHbMNrZplAyqUSKQ=
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD8DdIYAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAG3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMRnB1h0AAZub3RpZnlzcQB+AAyfPV6ndAADc3Fyc3EAfgAMffLUcHQABHdhaXRzcQB+AAzka5SQdAANJGFzSW5zdGFuY2VPZnNxAH4ADPR0xMx0AAlmb3JtYXRBYnNzcQB+AAxxSYV+dAAGZXF1YWxzc3EAfgAMBneJ8HQADGFzSW5zdGFuY2VPZnNxAH4ADApAH390AAZyZXN1bHRzcQB+AAw2SNOidAAMc3luY2hyb25pemVkc3EAfgAMS5TySXQADSRpc0luc3RhbmNlT2ZzcQB+AAwzMxOcdAAEbWFpbnNxAH4ADJhdjZZ0AAFpc3EAfgAM3Yvh6HQACW5vdGlmeUFsbHNxAH4ADIeVbs50AAxpc0luc3RhbmNlT2ZzcQB+AAwOXn3gdAACPT1zcQB+AAyrtTmjdAAFY2xvbmVzcQB+AAwHCDY1dAAIdG9TdHJpbmdzcQB+AAxn0ue6dAAFbWFnaWNzcQB+AAw7l5nmdAACIT1zcQB+AAwmLe1SdAAIZ2V0Q2xhc3NzcQB+AAy3TQn9dAADYWJzc3EAfgAMmiyj8XQAAm5lc3EAfgAMW1lgO3QACE15TW9kdWxlc3EAfgAM1y2+R3QAAmVxc3EAfgAMq9gfMXQAAiMjc3EAfgAMPx+N4XQACGZpbmFsaXplc3EAfgAMiKn2AHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgA7dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AZXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZABwc3EAfgBpc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4AbXNxAH4AZABwc3EAfgBpdXEAfgBIAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBOcQB+AFd1cQB+AFgAAAAAc3EAfgBaAHEAfgAjdXEAfgBcAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGx0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBsc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCKdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Ad3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AX3QABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AflsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AbHNxAH4AfXQABUFycmF5cQB+AIN1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AfXQABlN0cmluZ3NxAH4AgXNxAH4AhHVxAH4AhwAAAANzcQB+AIl0AARqYXZhc3EAfgCJdAAEbGFuZ3EAfgCOc3EAfgBkAHBzcQB+AGl1cQB+AEgAAAAAc3EAfgBkAHBzcQB+AGl1cQB+AKIAAAACc3EAfgB9dAAGT2JqZWN0cQB+AKZzcQB+AH10AANBbnlxAH4Ag3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFUm/h3bXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEwvVXNlcnMvY2hhcmxvdHRlcXZpc3QvMjAxNi1hZHByby1jb2RlLWV4YW1wbGVzLzAxMC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUiKYiaI7PYZBdV+Q524CFKdJv4zE=
+external apis:
+0 items
+source infos:
+4 items
+/Users/charlotteqvist/2016-adpro-code-examples/010/DynamicDispatch.scala -> 
+AAAAAAAAAAA=
+/Users/charlotteqvist/2016-adpro-code-examples/010/Exercises.scala -> 
+AAAAAAAAAAA=
+/Users/charlotteqvist/2016-adpro-code-examples/010/Factorial.scala -> 
+AAAAAAAAAAA=
+/Users/charlotteqvist/2016-adpro-code-examples/010/MyModule.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVJv4d211cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9jaGFybG90dGVxdmlzdC8yMDE2LWFkcHJvLWNvZGUtZXhhbXBsZXMvMDEwL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABVJ79luR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATC9Vc2Vycy9jaGFybG90dGVxdmlzdC8yMDE2LWFkcHJvLWNvZGUtZXhhbXBsZXMvMDEwL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEv
