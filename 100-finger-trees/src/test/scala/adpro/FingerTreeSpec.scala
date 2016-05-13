@@ -90,11 +90,11 @@ class FingerTreeSpecWasowski extends FlatSpec with Checkers {
 
   behavior of "toTree"
 
-  // it should "be an identitity on trees" in check {
-    // forAll (fingerTreeOfN(100, Gen.choose[Int](0,1000))) {
-    //   (t :FingerTree[Int]) => toTree (t) == t
-    // }
-  // }
+//   it should "be an identitity on trees" in check {
+//     forAll (fingerTreeOfN(100, Gen.choose[Int](0,1000))) {
+//       (t :FingerTree[Int]) => toTree (t) == t
+//     }
+//   }
 
   behavior of "left views (extractors)"
 

@@ -62,18 +62,14 @@ object data {
     // the operations both as methods and functions.
     // Uncomment them once you have implemented the corresponding functions.
 
-    def addL[B >:A] (b: B) :FingerTree[B] = {
-      FingerTree.addL (b,this)
-    }
-    def addR[B >:A] (b: B) :FingerTree[B] = {
-      FingerTree.addR (this,b)
-    }
+    def addL[B >:A] (b: B) :FingerTree[B] = FingerTree.addL (b,this)
+    def addR[B >:A] (b: B) :FingerTree[B] = FingerTree.addR (this,b)
     def toList :List[A] = FingerTree.toList (this)
 
     def headL :A = FingerTree.headL (this)
     def tailL :FingerTree[A] = FingerTree.tailL (this)
-    //def headR :A = FingerTree.headR (this)
-    // def tailR :FingerTree[A] = FingerTree.tailR (this)
+    def headR :A = FingerTree.headR (this)
+    def tailR :FingerTree[A] = FingerTree.tailR (this)
 
     def empty :Boolean = FingerTree.viewL(this) match {
       case NilTree() => true
@@ -81,11 +77,13 @@ object data {
     }
     def nonEmpty :Boolean = !empty
   }
+
   case class Empty () extends FingerTree[Nothing] {
     //page 7
     override def empty = true
     override def nonEmpty = false
   }
+
   case class Single[A] (data: A) extends FingerTree[A]
   case class Deep[A] (pr: Digit[A], m: FingerTree[Node[A]], sf: Digit[A]) extends FingerTree[A]
 
@@ -103,6 +101,7 @@ object data {
   sealed trait ViewL[+A]
   case class NilTree () extends ViewL[Nothing]
   case class ConsL[A] (hd: A, tl: FingerTree[A]) extends ViewL[A]
+  case class ConsR[A] (tl: FingerTree[A], hd: A) extends ViewL[A]
 
   // Left extractors for Finger Trees (we use the same algorithm as viewL in the
   // paper). You can do this, once you implemented the views the book way.
@@ -170,8 +169,8 @@ object data {
     def reduceR[A,Z] (opr: (A,Z) => Z) (t: FingerTree[A], z: Z) :Z = t match {
       case x:Empty => z
       case Single(x) => opr(x, z)
-      case Deep(pr:Digit, m:FingerTree, sf:Digit) =>
-        Digit.reduceR(opr)(pr, FingerTree.reduceR(Node.reduceR(opr) _)(m, Digit.reduceR(opr)(sf, z)))
+      case Deep(t:Digit, m:FingerTree, h:Digit) =>
+        Digit.reduceR(opr)(t, FingerTree.reduceR(Node.reduceR(opr) _)(m, Digit.reduceR(opr)(h, z)))
     }
 
     def reduceL[A,Z] (opl: (Z,A) => Z) (z: Z, t: FingerTree[A]) :Z = t match {
@@ -197,6 +196,7 @@ object data {
       case Deep(Digit(e, d, c, b), m, sf) => Deep(Digit(a,b), (addR(m, Node3(c, d, e))), sf)
       case Deep(pr, m, sf) => Deep(pr:+ a, m, sf)
     }
+
     // page 6
     // This is a direct translation of view to Scala. You can replace it later
     // with extractors in Scala, see above objects NilTree and ConsL (this is an
@@ -221,13 +221,16 @@ object data {
         case NilTree() => Digit.toTree(sf)
         case ConsL(a, m) => Deep(Node.toList(a), m, sf)
       }
-      //pr not empty
       case _ => Deep(pr, m, sf)
     }
 
-    // def deepR[A] ... = ...
-
-    // todo page 7
+    def deepR[A] (sf: Digit[A], m: FingerTree[Node[A]], pr: Digit[A]): FingerTree[A] = pr match {
+      case Nil => viewL(m) match {
+        case NilTree() => Digit.toTree(sf)
+        case ConsR(m, a) => Deep(sf, m, Node.toList(a))
+      }
+      case _ => Deep(sf, m, pr)
+    }
 
     def headL[A](ft: FingerTree[A]):A = viewL(ft) match {
       case ConsL(a, _) => a
@@ -235,8 +238,12 @@ object data {
     def tailL[A] (ft: FingerTree[A]):FingerTree[A] = viewL(ft) match {
       case ConsL(_, x) => x
     }
-    // def headR[A] ... = ...
-    // def tailR[A] ... = ...
+    def headR[A](ft: FingerTree[A]):A = viewL(ft) match {
+      case ConsR(_, a) => a
+    }
+    def tailR[A](ft: FingerTree[A]):FingerTree[A] = viewL(ft) match {
+      case ConsR(x, _) => x
+    }
   }
 
 }

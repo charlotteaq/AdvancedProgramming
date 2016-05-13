@@ -7,7 +7,7 @@
 		revision="0.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160426150544"/>
+		date="20160513195907"/>
 	<dependencies>
 		<module organisation="org.scalatest" name="scalatest_2.11">
 			<revision name="2.2.4" status="release" pubdate="20150129081600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
@@ -46,12 +46,12 @@
 			</revision>
 		</module>
 		<module organisation="org.scalacheck" name="scalacheck_2.11">
-			<revision name="1.12.4" status="release" pubdate="20150615142701" resolver="public" artresolver="public" homepage="http://www.scalacheck.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+			<revision name="1.12.4" status="release" pubdate="20150615142701" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="successful" details="" size="1592" time="129" location="/Users/charlotteqvist/.ivy2/cache/org.scalacheck/scalacheck_2.11/ivy-1.12.4.xml" searched="true" original-local-location="/Users/charlotteqvist/.ivy2/cache/org.scalacheck/scalacheck_2.11/ivy-1.12.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.4/scalacheck_2.11-1.12.4.pom"/>
+				<metadata-artifact status="no" details="" size="2797" time="0" location="/Users/charlotteqvist/.ivy2/cache/org.scalacheck/scalacheck_2.11/ivy-1.12.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.4/scalacheck_2.11-1.12.4.pom"/>
 				<caller organisation="miniproject-on-laziness-and-testing" name="miniproject-on-laziness-and-testing_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.12.4" rev-constraint-default="1.12.4" rev-constraint-dynamic="1.12.4" callerrev="0.0"/>
 				<artifacts>
-					<artifact name="scalacheck_2.11" type="jar" ext="jar" status="successful" details="" size="1768708" time="1796" location="/Users/charlotteqvist/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.4.jar">
+					<artifact name="scalacheck_2.11" type="jar" ext="jar" status="no" details="" size="1768708" time="0" location="/Users/charlotteqvist/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalacheck/scalacheck_2.11/1.12.4/scalacheck_2.11-1.12.4.jar"/>
 					</artifact>
 				</artifacts>
