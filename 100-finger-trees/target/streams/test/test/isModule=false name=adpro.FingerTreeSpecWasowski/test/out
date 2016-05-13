@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0m[32mFingerTreeSpecWasowski:[0m[0m
+[0m[[0minfo[0m] [0m[32mbasic FingerTree constructors[0m[0m
+[0m[[0minfo[0m] [0m[32m- should compile[0m[0m
+[0m[[0minfo[0m] [0m[32maddL[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce a queue containing the inserted element[0m[0m
+[0m[[0minfo[0m] [0m[32maddR[0m[0m
+[0m[[0minfo[0m] [0m[32mtoTree[0m[0m
+[0m[[0minfo[0m] [0m[32mleft views (extractors)[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be NilTree on Empty[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be ConsL(_,Nil) on Single[0m[0m
+[0m[[0minfo[0m] [0m[32mright views[0m[0m
